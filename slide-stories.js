@@ -53,7 +53,7 @@ class SlideStories {
 
   autoSlide(){
     clearTimeout(this.timeout);
-    this.timeout = setTimeout(this.next, 5000);
+    this.timeout = setTimeout(this.next, 3000);
   }
 
   init(){
